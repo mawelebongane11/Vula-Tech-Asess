@@ -1,5 +1,4 @@
-
-# Vula Medical - Community Poll Engine
+# Community Poll Engine
 
 This application analyzes community poll data from text files to find the winning choice and list all voters who selected it.
 
