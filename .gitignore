@@ -1,16 +1,17 @@
+# Dependencies
 node_modules/
+
+# Next.js Build Output
 .next/
 out/
 build/
-.env
-.env*.local
-.vscode/
+
+# Ignore all hidden configuration folders (Hides .idx and .nix silently)
+.*
+!.gitignore
+!.github/
+
+# Local env and logs
+.env*
 .DS_Store
-.next/
-.idx/
-.nix/
-node_modules/
-out/
-dist/
-.modified
-.idx/
+*.log
