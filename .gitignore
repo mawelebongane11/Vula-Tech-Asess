@@ -6,12 +6,12 @@ node_modules/
 out/
 build/
 
-# Ignore all hidden configuration folders (Hides .idx and .nix silently)
+# IDE and Environment Settings
 .*
 !.gitignore
 !.github/
 
-# Local env and logs
+# Local configuration and logs
 .env*
-.DS_Store
 *.log
+.DS_Store
